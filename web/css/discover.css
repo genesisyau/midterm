@@ -1,0 +1,63 @@
+
+
+.row img{
+    width:200px;
+    height:150px;
+
+}
+
+.item1 {
+    background-color: #f0e68c;
+    width:600px;
+    height:150px;
+    padding: 20px;
+    float :right;
+}
+
+.item2 {
+    background-color: #f0e68c;
+    width:600px;
+    height:150px;
+    padding: 20px;
+    float :left;
+}
+
+.row {
+    width:1280px;
+    box-sizing: border-box;
+    
+    
+}
+
+.details {
+    width:300px;
+    float:right;
+
+}
+
+.item-img{
+    float :left;
+}
+
+.map {
+    float: right;
+}
+
+.about {
+    box-sizing: border-box;
+    color:#000;
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    padding:28px;
+    margin: 0;
+    padding: 40px 20px;
+    width:600px;
+    height:460px;
+    float :left;
+}
+.aboutbox {
+    padding:10px;
+    width:1280px;
+    height:470px;
+}

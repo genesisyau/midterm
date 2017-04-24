@@ -1,0 +1,260 @@
+
+html{
+    background-color: #fce7d8;
+}
+
+body,html{
+    width:1280px;
+    margin:auto;
+    padding: 0;
+    font-family: "Century Gothic";
+    overflow-x: hidden;
+}
+
+#container{
+    height: 100%;
+}
+
+.container{
+    width:1280px;
+    height:1653px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    float:right;
+}
+
+.logo{
+    width: 350px;
+    float: left;
+    opacity: 0.75;
+}
+
+nav{
+    background-color: #fff;
+    opacity: 0.8;
+    float:right;
+    height: 113px;
+    width: 930px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+}
+
+nav ul li a{
+    color:#000;
+    font-size: 24px;
+    display: inline-block;
+    text-decoration: none;
+    padding:28px;
+    margin: 0;
+    text-align: center;
+}
+
+.header-img{
+    position: absolute;
+    z-index: -1;
+}
+
+.slogan{
+    font-size: 46px;
+    margin:250px 40px 90px 0;
+    color:#fff;
+    width: 900px;
+    font-style: italic;
+    float:right;
+    z-index: 2;
+}
+
+.bar{
+    display: inline;
+    background-color: #ed7f33;
+    width: 1280px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.bar h4{
+    display: inline;
+    font-size: 28px;
+    width: 115px;
+    padding-bottom: 20px;
+}
+
+.discover{
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+.travel{
+    padding-right: 220px;
+    padding-left: 30px;
+}
+.enjoy{
+    padding-right: 120px;
+    padding-left: 20px;
+}
+
+
+.bar img{
+    width: 115px;
+    height: 115px;
+    padding: 10px 100px;
+}
+
+.bar img:hover{
+    opacity: 0.8;
+    width: 115px;
+    height: 115px;
+}
+
+.subtitles{
+    background-color: #ed7f33;
+}
+
+.images{
+    background-color: #ed7f33;
+    height:130px;
+    clear:both;
+}
+
+
+.tours img{
+    display: block;
+    margin-top: 30px;
+}
+
+.tours p{
+    background-color: #fff;
+    opacity: 0.75;
+    width: 400px;
+    font-size: 30px;
+    float:right;
+    clear: both;
+    margin-right: 159.5px;
+    padding: 15px;
+    margin-top: 0;
+}
+
+h2{
+    background-color: #fff;
+    opacity: 0.75;
+    height: 50px;
+    padding:10px 10px 0 10px;
+    font-size: 30px;
+    margin: 0px 109.500px;
+    z-index: 1;
+    
+}
+
+
+.city h2{
+    width: 170px;
+    margin-left: 100px;
+    
+}
+
+.city img{
+    z-index: -1;
+    margin-left: 100px;
+    margin-top: 0;
+    position: absolute;
+    
+}
+
+.beach,.city{
+    margin:70px 0 70px 0;
+    height: 298px;
+}
+
+.beach img{
+    margin-top: 0;
+    position: absolute;
+    margin-left: 100px;
+    z-index: -1;
+    
+}
+
+.beach h2{
+    width: 200px;
+    margin-left: 100px;
+}
+
+button{
+    background-color: #e53270;
+    opacity:0.9;
+    color: #fff;
+    border-style: none;
+    border-radius: 12px;
+    font-family: "Century Gothic";
+    font-size: 26px;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    transition: all 0.05s;
+    cursor: pointer;
+    float: right;
+    clear: both;
+    margin-right: 159.5px;
+}
+
+button:hover{
+    background-color: #e53270;
+    opacity:0.8;
+    height: 55px;
+    width: 185px;
+}
+
+#button:active{
+    background-color: #e53270;
+}
+
+footer{
+    background-color: #e53270;
+    width: 1280px;
+    height: 113px;
+    text-align: left;
+    float: left;
+    
+}
+
+.social{
+    padding-left: 1025px;
+    padding-top: 28px;
+}
+
+footer p{
+    padding-left: 20px;
+    padding-top: 45px;
+    float: left;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    clear: both;
+}
+
+footer img{
+    padding-right: 15px;
+    width: 58px;
+    height: 58px;
+}
+
+
+.header-img img{
+    width:1280px;
+    height:200px;
+}
+
+.con{
+    width:1280px;
+    height:300px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
