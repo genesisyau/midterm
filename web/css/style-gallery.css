@@ -1,0 +1,177 @@
+html{
+	background-color: #fce7d8;
+}
+body{
+	background-image: url("gallery-background.jpg");
+	background-size: cover;
+}
+
+body,html{
+  width:1280px;
+  height:1430px;
+  margin: auto;
+  padding: 0;
+  font-family: "Century Gothic";
+}
+
+#container{
+  height: 100%;
+}
+
+.container{
+  width:1280px;
+  height:1653px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  float:right;
+	clear: both;
+
+}
+
+.logo{
+  width: 350px;
+  float: left;
+  opacity: 0.75;
+}
+
+nav{
+  background-color: #fff;
+  opacity: 0.8;
+  float:right;
+  height: 113px;
+  width: 930px;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+}
+
+nav ul li a{
+  color:#000;
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  padding:28px;
+  margin: 0;
+  text-align: center;
+}
+h1{
+	font-family: "Century Gothic";
+	font-size: 40px;
+	color:#42cbf4;
+	font-style: italic;
+	margin-top: 0;
+}
+
+
+
+*{box-sizing: border-box;}
+main{
+    width: 80%;
+    margin:0 auto;
+}
+section{
+    width:auto;
+}
+figure{
+    width: calc(100% / 4);
+    float: left;
+    position: relative;
+    margin-bottom: 1rem;
+}
+section::after,section::before{
+    content: "";
+    display: block;
+}
+section::after{
+    clear: both;
+}
+figure a{
+    display: block;
+    height: 100%;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+}
+figure img{
+    width: 100%;
+    vertical-align: middle;
+    margin:0;
+		transition: transform .25s ease;
+}
+figure img:hover{
+	transform: scale(1.25);
+}
+
+
+
+
+
+
+@media only screen and (max-width:1024px){
+    html{
+        font-size: 14px;
+    }
+    figure{
+        width: calc(100% /3);
+    }
+}
+@media only screen and (max-width:840px){
+    html{
+        font-size: 12px;
+    }
+    figure{
+        width: calc(100% /3);
+    }
+}
+@media only screen and (max-width:640px){
+    html{
+        font-size: 11px;
+    }
+    figure{
+        width: calc(100% /2);
+    }
+}
+@media only screen and (max-width:400px){
+    html{font-size: 10.5px;}
+    figure{
+        width:100%;
+   }
+
+}
+
+
+footer{
+  background-color: #e53270;
+  width: 1280px;
+  height: 113px;
+  text-align: left;
+  float: left;
+	clear: both;
+
+}
+
+.social{
+  padding-left: 1025px;
+  padding-top: 28px;
+}
+
+footer p{
+  padding-left: 20px;
+  padding-top: 45px;
+  float: left;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  clear: both;
+}
+
+footer img{
+  padding-right:0;
+  width: 58px;
+  height: 58px;
+}

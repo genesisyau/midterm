@@ -1,0 +1,138 @@
+html{
+	background-color: #fce7d8;
+}
+
+body,html{
+  width:1280px;
+  height:auto;
+  margin: auto;
+  padding: 0;
+  font-family: "Century Gothic";
+}
+
+#container{
+  height: 100%;
+}
+
+.container{
+  width:1280px;
+  height:1653px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  float:right;
+}
+
+.logo{
+  width: 350px;
+  float: left;
+  opacity: 0.75;
+}
+
+nav{
+  background-color: #fff;
+  opacity: 0.8;
+  float:right;
+  height: 113px;
+  width: 930px;
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+}
+
+nav ul li a{
+  color:#000;
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  padding:28px;
+  margin: 0;
+  text-align: center;
+}
+
+.header-img{
+  position: absolute;
+  z-index: -1;
+	width: 1280px;
+	height: 572px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+
+
+
+.slogan{
+  font-size: 46px;
+  margin:240px 40px 90px 0;
+  color:#fff;
+  width: 900px;
+  font-style: italic;
+  float:right;
+  z-index: 2;
+}
+
+.events{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 50px;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 90px 0 28px;
+}
+
+.activities{
+	display:inline-block;
+	width: 360px;
+	background-color:rgba(237, 127, 51,0.7);
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	margin:20px;
+	border-radius: 25px;
+}
+
+.article-img{
+	width: 300px;
+	height: 210px;
+}
+
+
+
+
+
+footer{
+  background-color: #e53270;
+  width: 1280px;
+  height: 113px;
+  text-align: left;
+  float: left;
+	clear: both;
+}
+
+.social{
+  padding-left: 1025px;
+  padding-top: 28px;
+}
+
+footer p{
+  padding-left: 20px;
+  padding-top: 45px;
+  float: left;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  clear: both;
+}
+
+footer img{
+  padding-right:0;
+  width: 58px;
+  height: 58px;
+}
