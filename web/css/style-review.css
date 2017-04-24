@@ -4,10 +4,10 @@ html{
 
 body,html{
   width:1280px;
-  margin:auto;
+  height:auto;
+  margin: auto;
   padding: 0;
   font-family: "Century Gothic";
-  overflow-x: hidden;
 }
 
 #container{
@@ -55,28 +55,64 @@ nav ul li a{
   text-align: center;
 }
 
-.header-img{
+h1{
+	font-size: 60px;
+	font-style: italic;
 	margin: 0;
-	padding: 0;
+	text-align: center;
+	clear: both;
 }
 
-article{
-	background-image: url("../images/about_pbg.jpg");
-	background-size: cover;
+.main{
+	clear: both;
+	height: 450px;
+	width: auto;
+	border-radius: 50px 15px;
+	padding: 30px;
+	background-color: #ff5e95;
+}
+.main p{
+	padding-top: 70px;
+	float: left;
+	width: 800px;
+}
+
+
+.main-pic{
+	padding-top: 30px;
+	border-radius: 50%;
+	height:400px;
+	width:400px;
 	float:right;
 }
-article h1{
-	font-size: 300%;
-}
-article p{
-	font-size: 150%;
-	font-weight:bold;
-}
-.Flag_of_Panama{
-	margin-left: 300px;
-	padding: inherit;
+
+.others{
+	width:auto;
+	height:300px;
+	padding: 30px;
+	background-color: #68d4f2;
+	margin:  20px 0;
+	border-radius: 15px 50px;
 }
 
+.customer{
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	float: left;
+	padding: 20px;
+}
+
+.main-review{
+	font-size: 40px;
+}
+
+p{
+	font-size: 40px;
+	font-style: italic;
+	margin: auto;
+	text-align: justify;
+}
 
 footer{
   background-color: #e53270;
