@@ -1,0 +1,19 @@
+table {
+    border-style:solid;
+    font-family: arial;
+    font-size:14px;
+}
+th {
+    border-style:solid;
+    background-color:yellow;
+}
+td {
+    border-style:solid;
+    border-bottom:1 solid #FFF;
+}
+.fail {
+    color:#FF0000;
+}
+table a {
+    color:#000000;
+}
