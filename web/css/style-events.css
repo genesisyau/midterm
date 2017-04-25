@@ -4,7 +4,6 @@ html{
 
 body,html{
   width:1280px;
-  height:auto;
   margin: auto;
   padding: 0;
   font-family: "Century Gothic";
@@ -16,7 +15,6 @@ body,html{
 
 .container{
   width:1280px;
-  height:1653px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -81,9 +79,7 @@ nav ul li a{
 	display: inline-block;
 	float: left;
 	width: 100%;
-	margin: 50px;
 	vertical-align: middle;
-	margin: 0 auto;
 	padding: 90px 0 28px;
 }
 
