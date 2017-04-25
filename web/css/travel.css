@@ -1,19 +1,30 @@
-table {
-    border-style:solid;
-    font-family: arial;
-    font-size:14px;
+.items-row {
+    width:1280px;
+    padding: 20px;
+    float:left;
+    display:table-cell;
 }
-th {
-    border-style:solid;
-    background-color:yellow;
+.item1 {
+    width:300px;
+    float:left;
+    display:table-cell;
 }
-td {
-    border-style:solid;
-    border-bottom:1 solid #FFF;
+.item2 {
+    width:300px;
+    float:left;
+    display:table-cell;
 }
-.fail {
-    color:#FF0000;
+.item3 {
+    width:300px;
+    float:left;
+    display:table-cell;
 }
-table a {
-    color:#000000;
+.item4 {
+    width:300px;
+    float:left;
+    display:table-cell;
+}
+.items-row img {
+    width:300px;
+    display:table-cell;
 }
