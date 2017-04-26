@@ -70,7 +70,21 @@ article h3{
   margin: 0;
   padding: 0;
 }
+
+@keyframes blink {
+	0%{opacity: 0}
+	0%{opacity: 0}
+	50%{opacity: 1}
+}
+
 /*ul1*/
+.cityimg img{
+	animation: blink 5s;
+}
+.header-img{
+	animation: blink 5s;
+}
+
 .cityimg{
   margin: 0;
   padding: 0;
@@ -80,6 +94,7 @@ article h3{
   display: block;
   clear: both;
 }
+
 article ul{
   margin: 0;
   padding: 0;
